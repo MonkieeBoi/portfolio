@@ -40,7 +40,7 @@ export default function Project({ pTitle = "", pDesc = "", source, img }
     }
 
     return (
-        <div className="p-5 w-80 h-96 flex flex-col gap-2 border-2 border-gray-600">
+        <div className="p-5 w-80 flex flex-col gap-2 border-2 border-gray-600">
             <Image
                 src={img}
                 alt={title.current}
@@ -55,7 +55,7 @@ export default function Project({ pTitle = "", pDesc = "", source, img }
                         <Image
                             src="images/github.svg"
                             alt="github-logo"
-                            className="size-4 fill-white"
+                            className="size-4"
                             width={0}
                             height={0}
                         />
@@ -65,7 +65,7 @@ export default function Project({ pTitle = "", pDesc = "", source, img }
                     <Image
                         src="images/star.svg"
                         alt="star"
-                        className="size-5 text-white inline mr-1"
+                        className="size-5 inline mr-1"
                         width={0}
                         height={0}
                     />
