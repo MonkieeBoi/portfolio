@@ -14,6 +14,7 @@ export default function Skills() {
         "Github",
         "Go",
         "HTML",
+        "HTMX",
         "Java",
         "JavaScript",
         "MongoDB",
@@ -24,7 +25,6 @@ export default function Skills() {
         "Python",
         "React",
         "TailwindCSS",
-        "htmx",
     ]
 
     return (
@@ -33,11 +33,13 @@ export default function Skills() {
             <div className="w-full lg:w-3/4 2xl:w-3/5 flex flex-row flex-wrap gap-5 justify-center content-stretch">
                 {
                     skills.map((t) =>
-                        <div className="bg-gray-800 min-h-30 rounded-md flex flex-col items-center p-2 w-full max-w-32">
+                        <div
+                            className="bg-gray-800 min-h-30 rounded-md flex flex-col items-center p-2 w-full max-w-32"
+                            key={t}
+                        >
                             <div className="h-full"></div>
                             <Tech
                                 tech={t.replaceAll(".", "")}
-                                key={t.replaceAll(".", "")}
                                 size={60}
                             />
                             <div className="h-full min-h-2"></div>
