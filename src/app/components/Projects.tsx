@@ -12,13 +12,13 @@ export default function Projects() {
                     pTitle="spnw"
                     source="https://github.com/yunz-dev/spnw-api"
                     img="/images/github.svg"
-                    tags={["python", "fastapi", "htmx", "alpine", "tailwind", "mongodb"]}
+                    tags={["python", "fastapi", "htmx", "alpinejs", "tailwindcss", "mongodb"]}
                 />
 
                 <Project
                     source="https://github.com/monkieeboi/yawl"
                     img="/images/github.svg"
-                    tags={["javascript", "mongodb"]}
+                    tags={["javascript", "react", "expressjs", "mongodb"]}
                 />
             </div>
 

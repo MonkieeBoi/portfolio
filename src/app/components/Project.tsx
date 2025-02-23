@@ -103,8 +103,8 @@ export default function Project({ pTitle = "", pDesc = "", source, img, tags = [
                 {/* </div> */}
             </div>
             <h2 className="">{desc.current}</h2>
-            <div className="h-full"></div>
-            <div className="flex flex-row gap-2">
+            <div className="h-full min-h-1"></div>
+            <div className="flex flex-row items-center gap-2 grayscale brightness-0 invert">
                 {
                     tags.map((t) =>
                         <Tech
