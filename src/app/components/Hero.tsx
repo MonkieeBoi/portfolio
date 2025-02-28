@@ -58,7 +58,7 @@ export default function Hero() {
                             width={0}
                             height={0}
                         />
-                        <h1>UYSD (3rd year)</h1>
+                        <h1>USYD (3rd year)</h1>
                     </div>
                     <div className="bg-gray-700 p-2 rounded w-full flex flex-row gap-2">
                         <Image
