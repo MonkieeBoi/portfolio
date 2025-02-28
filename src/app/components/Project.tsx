@@ -84,7 +84,7 @@ export default function Project({ pTitle = "", pDesc = "", source, img, tags = [
                 </div>
                 <Link href={source} target="_blank">
                     <Image
-                        src="/images/github.svg"
+                        src="/logos/github.svg"
                         alt="github-logo"
                         className="size-4 cursor-pointer"
                         width={0}
@@ -93,7 +93,7 @@ export default function Project({ pTitle = "", pDesc = "", source, img, tags = [
                 </Link>
                 {/* <div className="flex flex-row gap-[0.125rem] items-center"> */}
                 {/*     <Image */}
-                {/*         src="/images/star.svg" */}
+                {/*         src="/icons/star.svg" */}
                 {/*         alt="star" */}
                 {/*         className="size-5 inline mr-1" */}
                 {/*         width={0} */}

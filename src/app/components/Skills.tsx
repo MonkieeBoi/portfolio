@@ -29,7 +29,7 @@ export default function Skills() {
 
     return (
         <div className="bg-gray-700 relative w-screen p-5 flex flex-col items-center justify-center gap-4">
-            <h1 className="font-bold text-3xl">Skills</h1>
+            <h1 className="font-bold text-3xl">Languages and Technologies</h1>
             <div className="w-full lg:w-3/4 2xl:w-3/5 flex flex-row flex-wrap gap-5 justify-center content-stretch">
                 {
                     skills.map((t) =>
