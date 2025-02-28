@@ -11,21 +11,25 @@ export default function Projects() {
                 <Project
                     pTitle="spnw"
                     source="https://github.com/yunz-dev/spnw-api"
-                    img="/images/github.svg"
+                    img="/logos/github.svg"
                     tags={["python", "fastapi", "htmx", "alpinejs", "tailwindcss", "mongodb"]}
                 />
 
                 <Project
                     source="https://github.com/monkieeboi/yawl"
-                    img="/images/github.svg"
+                    img="/logos/github.svg"
                     tags={["javascript", "react", "expressjs", "mongodb"]}
                 />
             </div>
 
-            <a href="/projects" className="flex flex-row gap-1 items-center">
+            <a
+                href="https://github.com/monkieeboi"
+                target="_blank"
+                className="flex flex-row gap-1 items-center"
+            >
                 All Projects
                 <Image
-                    src="/images/hyperlink.svg"
+                    src="/icons/hyperlink.svg"
                     alt="star"
                     className="size-4 inline"
                     width={0}
