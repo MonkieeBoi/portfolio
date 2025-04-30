@@ -70,12 +70,12 @@ export default function Project({ pTitle = "", pDesc = "", source, img, tags = [
     }
 
     return (
-        <div className="p-5 w-full max-w-80 flex flex-col gap-2 border-2 border-gray-600">
+        <div className="bg-gray-800 p-5 w-full max-w-80 flex flex-col gap-2 border-2 border-gray-600">
             <Image
                 src={img}
                 alt={title.current}
-                width={0}
-                height={0}
+                width={3000}
+                height={3000}
                 className="w-full"
             />
             <div className="flex flex-row justify-between items-center">

@@ -11,14 +11,20 @@ export default function Projects() {
                 <Project
                     pTitle="spnw"
                     source="https://github.com/yunz-dev/spnw-api"
-                    img="/logos/github.svg"
+                    img="/images/spnw.png"
                     tags={["python", "fastapi", "htmx", "alpinejs", "tailwindcss", "mongodb"]}
                 />
 
                 <Project
                     source="https://github.com/monkieeboi/yawl"
-                    img="/logos/github.svg"
+                    img="/logos/express.svg"
                     tags={["javascript", "react", "expressjs", "mongodb"]}
+                />
+
+                <Project
+                    source="https://github.com/MonkieeBoi/LinGo"
+                    img="/images/lingo.png"
+                    tags={["go", "sqlite"]}
                 />
             </div>
 
