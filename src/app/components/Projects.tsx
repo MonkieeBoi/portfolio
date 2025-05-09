@@ -22,8 +22,8 @@ export default function Projects() {
                 />
 
                 <Project
-                    source="https://github.com/MonkieeBoi/LinGo"
-                    img="/images/lingo.png"
+                    source="https://github.com/MonkieeBoi/goana"
+                    img="/images/goana.png"
                     tags={["go", "sqlite"]}
                 />
             </div>
